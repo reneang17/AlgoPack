@@ -116,8 +116,6 @@ def test_insert():
     assert node.value == 'rat'
 
 
-
-
 def test_size():
     # Test size
     linked_list = LinkedList()
@@ -125,3 +123,10 @@ def test_size():
     for i in range(1,10):
         linked_list.append(i)
     assert linked_list.size() == 9
+
+def test_to_list():
+    linked_list = LinkedList()
+    assert linked_list.to_list() == []
+    for i in range(0,5):
+        linked_list.append(i)
+    assert linked_list.to_list() == [0,1,2,3,4]    
