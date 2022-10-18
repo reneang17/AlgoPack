@@ -1,4 +1,4 @@
-from AutoPack import LinkedList
+from AlgoPack import LinkedList
 
 
 def test_Linkedlist():
