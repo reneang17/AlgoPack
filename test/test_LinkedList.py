@@ -129,4 +129,4 @@ def test_to_list():
     assert linked_list.to_list() == []
     for i in range(0,5):
         linked_list.append(i)
-    assert linked_list.to_list() == [0,1,2,3,4]    
+    assert linked_list.to_list() == [0,1,2,3,4]
