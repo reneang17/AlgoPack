@@ -1,6 +1,7 @@
 
 from .Node import Node
 
+#Based on https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256
 
 # Implementation via LinkedList
 class Stack:
