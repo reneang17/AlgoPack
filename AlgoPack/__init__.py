@@ -3,4 +3,4 @@ from .LinkedList import LinkedList
 from .Node import Node
 from .Stack import Stack
 from .Queue import Queue
-from .BNode import BNode
+from .Tree import BNode, Tree
