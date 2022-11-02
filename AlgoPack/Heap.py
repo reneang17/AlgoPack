@@ -116,3 +116,10 @@ class Heap(object):
         if self.size() == 0:
             return None
         return self.cbt[0]
+
+    # define __repr_ to decide what a print statement displays for a Node object
+    def __repr__(self):
+        return f"Node({self.get_value()})"
+
+    def __str__(self):
+        return f"Node({self.get_value()})"
